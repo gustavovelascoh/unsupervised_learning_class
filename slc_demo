@@ -1,0 +1,9 @@
+% slc_democ
+
+d = pdist(ds2);
+
+l = linkage(d);
+
+figure, 
+subplot(2,2,1), plotds(ds2);
+subplot(2,2,4), dendogram(l);
