@@ -1,5 +1,5 @@
 % slc_democ
-ds = ds4;
+ds = ds2;
 dsl = size(ds,1);
 d = pdist(ds);
 
